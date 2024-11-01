@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-yellow-100">
+    <h1 class="font-bold text-center text-5xl my-5 mx-auto duration-200 animate-bounce py-7">Transition</h1>
+    <div class="flex justify-center items-center gap-3 my-8">
+        <button class="fade-button bg-blue-100 py-2 px-4 rounded-full opacity-100 hover:opacity-75"> Fade Me</button> 
+        <button class="bg-blue-100 py-2 px-4 rounded-full transform transition-transform duration-500 hover:-translate-y-20">Slide Me</button>
+        <button class="bg-blue-100 py-2 px-4 rounded-full transform transition-transform duration-300 hover:-rotate-90">Rotate Me</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body{
+    /* background-color: rgb(111, 167, 101); */
+    /* color: white; */
+    background-image: url("imgs/pak\ flag.jfif");
+    height: 100vh;
+    background-repeat: repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-shadow: rgb(104, 104, 104);
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.navbar{
+    background-color: aquamarine;
+}
+.navbar nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+}
+
+.navbar nav ul li{
+    list-style: none;
+}
+.content {
+    text-align: center;
+}
+.about{
+    text-align: center;
+    margin: 12px;
+}
+.province{
+    margin: 12px;
+    padding: 12px;
+}
+.head{
+    text-align: center;
+    margin: 5px 10px;
+}
+.imp-per h1{
+    text-align: center;
+}
+.imp-per p{
+    text-align: center;
+    margin: 0;
+}
+
+.ppl{
+    
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 55px;
+    margin: 12px;
+    text-align: center;
+    width: 250px;
+    margin: 40px;
+    padding: 10px;
+}
+.ppl img{
+    width: 250px;
+    height: 250px;
+}
+
+.province{
+    text-align: center;
+}
+.pro-pics{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}

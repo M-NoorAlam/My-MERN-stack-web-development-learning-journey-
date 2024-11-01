@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <style>
+        body{
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            color: rgb(255, 255, 255);
+        }
+        .world{
+            width: 300px;
+            height: 220px;
+            background-color: rgb(91, 91, 255);
+            background-image: url("world.jpg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            border-radius: 50%;
+            margin: 37px 461px;
+        }
+        h2{
+            margin: 24px 521px;
+        }
+        .states{
+            display: flex;
+            gap: 23px;
+        }
+        .state{
+            width: 150px;
+            height: 150px;
+            margin: 30px 28px;
+            background-color: aqua;
+        }
+        .Asia{
+            background-image: url("sun.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            border-radius: 50%;
+            background-color: rgb(251, 144, 23);
+        }
+        .Africa{
+            background-image: url("sun.svg");
+            background-color: rgb(251, 144, 23);
+            background-repeat: no-repeat;
+            background-size: contain;
+            border-radius: 50%;
+        }
+        .NorthAmerica{
+            background-image: url("cloud.svg");
+            background-color:rgb(173, 232, 244);
+            background-repeat: no-repeat;
+            background-size: contain;
+            border-radius: 50%;
+        }
+        .SouthAmerica{
+            background-color:rgb(0, 119, 182);
+            background-image: url("rain.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            border-radius: 50%;
+        }
+        .Antarctica{
+            background-image: url("snow.svg");
+            background-color:rgb(208, 224, 245);
+
+            background-repeat: no-repeat;
+            background-size: contain;
+            border-radius: 50%;
+        }
+      .heading h3{
+            margin: 1px -146px;
+        }
+    </style>
+</head>
+<body>
+    <h2>World forecasting</h2>
+    <div class="world">
+    </div>    
+    <div class="states">
+        <div class="Asia state"></div>
+        <div class="heading"><h3>Asia</h3></div>
+
+        
+        <div class="NorthAmerica state"></div>
+        <div class="heading"><h3>North America</h3></div>
+
+        <div class="SouthAmerica state"></div>
+        <div class="heading"><h3>South America</h3></div>
+
+        <div class="Antarctica state"></div>
+        <div class="heading"><h3>Antarctica</h3></div>
+
+        <div class="Africa state"></div>
+        <div class="heading"><h3>Africa</h3></div>
+
+    </div>
+
+</body>
+</html>

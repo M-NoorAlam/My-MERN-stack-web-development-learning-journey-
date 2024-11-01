@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events</title>
+</head>
+<body>
+    
+<h1>Events</h1>
+<!-- <button onclick="hello()">Click me</button> -> Use on one click -->
+<!-- <button onclick="hello()">Click me</button> -> active after double click -->
+<!-- <button onmouseover="hello()">Click me</button> -> active after You hover on it  -->
+<!-- <button onmousewheel="hello()">Click me</button>  -> active after You use mousewheel on it -->
+ <label for="#">Num1</label>
+ <input type="number" placeholder="Enter a number " id="num1">
+ <label for="#">Num2</label>
+ <input type="number" placeholder="Enter a number " id="num2">
+ <button onclick="sum()">Sum</button>
+ <h1 id="result"></h1>
+
+    <script>
+        // function hello(){
+        //     alert("You clicked me")
+        // }
+        function sum(){
+            let num1 = parseFloat(document.getElementById("num1").value)
+            let num2 = parseFloat(document.getElementById("num2").value)
+            let sum = num1+num2
+            document.getElementById("result").innerHTML = sum
+        }
+    
+    </script>
+</body>
+</html>

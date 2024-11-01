@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="AddDiv">
+        <div class="Addition">
+            <h1>Addition</h1>
+            <label for="#">Num1</label>
+            <input type="number" placeholder="Enter any number" id="num1">
+            <label for="#"> Num2</label>
+            <input type="number" placeholder="Enter any number" id="num2"><br>
+            <button class="btn" onclick="add()">Result = </button> <span id="result1"></span>
+        </div>
+
+        <div class="Division">
+            <h1>Division</h1>
+            <label for="#">Num1</label>
+            <input type="number" placeholder="Enter any number" id="num3">
+            <label for="#"> Num2</label>
+            <input type="number" placeholder="Enter any number" id="num4"><br>
+            <button class="btn" onclick="div()">Result = </button><span id="result2"></span>
+        </div>
+    </div>
+
+
+
+
+    <div class="SubMul">
+        <div class="Subtraction">
+            <h1>Subtraction</h1>
+            <label for="#">Num1</label>
+            <input type="number" placeholder="Enter any number" id="num5">
+            <label for="#"> Num2</label>
+            <input type="number" placeholder="Enter any number" id="num6"><br>
+            <button class="btn" onclick="sub()">Result = </button><span id="result3"></span>
+        </div>
+
+        <div class="Multiplication">
+            <h1>Multiplication</h1>
+            <label for="#">Num1</label>
+            <input type="number" placeholder="Enter any number" id="num7">
+            <label for="#"> Num2</label>
+            <input type="number" placeholder="Enter any number" id="num8"><br>
+            <button class="btn" onclick="mul()">Result = </button><span id="result4"></span>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

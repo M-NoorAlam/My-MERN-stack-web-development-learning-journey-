@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function is JS</title>
+</head>
+<body>
+    
+
+
+    <script>
+        function sum(eng,urdu,math,phy,cs){
+            obtM=eng+urdu+math+phy+cs;
+            return obtM;
+        }
+        function per(obtM){
+            percentage = obtM/500*100
+            return percentage
+        }
+        let a = sum(56,87,98,34,78);
+        document.write("The obtained marks of a student is : ",a,"/500","<br>");
+        let b = per(obtM);
+        document.write("The percentage of a student is : ",b)
+
+    </script>
+</body>
+</html>
