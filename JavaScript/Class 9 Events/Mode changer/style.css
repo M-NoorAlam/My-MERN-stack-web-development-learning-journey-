@@ -1,0 +1,24 @@
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color:white;
+    color: black;
+}
+
+#btn{
+    margin: 156px 124px;
+    padding: 20px 69px;
+    border-radius: 22px;
+    background-color: rgb(129, 161, 111);
+    color: white;
+    font-size: 26px;
+    font-weight: bolder;
+    box-shadow: 6px 14px 28px rgb(39, 97, 27);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
