@@ -1,0 +1,4 @@
+//read about mongo db and express
+//MVC folder structure ?
+//Create a array of jasson file and map it
+//Four types of request {get,post,put,delete}
